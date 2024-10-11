@@ -4,20 +4,23 @@
   "description": "This service will allow authorized users to browse films that are available, pick and reserve seats for specific movies, and they will be able to manage reserved seats\r ***\r # What features will this project have\r ## User Authentication and Authorization\r #### • There will be 2 roles: admin and regular user\r #### • All users should be able to sign up and log in\r #### • All users should be able to reserve seats for a movie.\r #### • Admins should be able to manage movies\r ## Movie Management\r #### • Admins should be able to add, update, and delete movies\r #### • Each movie should have a title, description, and poster image\r #### • Movies should be categorized by genre\r #### • Movies should have showtime\r ## Reservation Management\r #### • All users should be able to get information about movies and their showtime for a specific date\r #### • All users should be able to see the available seats, select the seats they want and reserve this seats for a showtime \r #### • All users should be able to see their reservations and cancel them\r #### • Admins should be able to see all reservations, capacity, and revenue.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.12.0",
+    "@types/jest": "^29.5.13",
     "eslint": "^9.12.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "globals": "^15.11.0",
     "husky": "^9.1.6",
+    "jest": "^29.7.0",
     "lint-staged": "^15.2.10",
     "prettier": "^3.3.3",
+    "ts-jest": "^29.2.5",
     "typescript-eslint": "^8.8.1"
   },
   "husky": {
